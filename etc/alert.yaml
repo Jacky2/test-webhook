@@ -1,0 +1,54 @@
+getConfig:
+  local:
+    enable: true
+  nacos:
+    enable: false
+    ipAddr: "127.0.0.1"
+    port: 8848
+    contextPath: "/nacos"
+    namespace: "public"
+    username: "nacos"
+    password: "nacos"
+
+net:
+  port: 8082
+  bindIp: 0.0.0.0
+
+sender:
+  mail:
+    # three choice: smtp|shell|api
+    way: smtp
+    worker: 10
+    api: http://127.0.0.1:2008/mail
+  sms:
+    # two choice: shell|api
+    way: api
+    worker: 10
+    api: http://127.0.0.1:2008/sms
+  voice:
+    # two choice: shell|api
+    way: shell
+    worker: 10
+    api: http://127.0.0.1:2008/voice
+  im:
+    # five choice: shell|api|wechat|wechat_robot|dingtalk_robot
+    way: shell
+    worker: 10
+    api: http://127.0.0.1:2008/im
+  robot:
+    # choices: wechat_robot|dingtalk_robot
+    way: dingtalk_robot
+    worker: 10
+    api: "https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxx"
+
+wechat:
+  corpId: "xxxxxxxxxxxxx"
+  agentId: 1000000
+  secret: "xxxxxxxxxxxxxxxxx"
+
+email:
+  smtpHost: "mail.test.com"
+  smtpPort: 465
+  smtpUser: alert@test.com
+  smtpPass: "test"
+  smtpInsecureSkipVerify: false

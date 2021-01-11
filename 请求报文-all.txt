@@ -1,0 +1,250 @@
+{
+    "receiver": "web\\.hook",
+    "status": "firing",
+    "alerts": [
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "456098114873716736",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"10.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master1:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+93&g0.tab=1",
+            "fingerprint": "61862ae9f103093d"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"20.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"30.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"40.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"50.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"50.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },{
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "456098114873716736",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"10.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master1:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+93&g0.tab=1",
+            "fingerprint": "61862ae9f103093d"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"20.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"30.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"40.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"50.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        },
+        {
+            "status": "firing",
+            "labels": {
+                "alertAppRuleId": "467258522426888194",
+                "alertname": "不分应用的-内存使用率过高",
+                "appCode": "paas_node_alert",
+                "instance": "10.2.20.55:9100",
+                "job": "node_for_zxkf",
+                "module": "node_exporter"
+            },
+            "annotations": {
+                "description": "\"50.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+                "summary": "不分应用的内存使用率过高"
+            },
+            "startsAt": "2020-07-22T09:15:20.695361228+08:00",
+            "endsAt": "0001-01-01T00:00:00Z",
+            "generatorURL": "http://prom-master2:9090/graph?g0.expr=%281+-+node_memory_MemAvailable_bytes+%2F+node_memory_MemTotal_bytes%29+%2A+100+%3E+92&g0.tab=1",
+            "fingerprint": "7fa7494bd5fffb08"
+        }
+    ],
+    "groupLabels": {
+        "alertname": "不分应用的-内存使用率过高"
+    },
+    "commonLabels": {
+        "alertname": "不分应用的-内存使用率过高",
+        "appCode": "paas_node_alert",
+        "instance": "10.2.20.55: 9100",
+        "job": "node_for_zxkf",
+        "module": "node_exporter"
+    },
+    "commonAnnotations": {
+        "description": "\"10.2.20.55:9100 内存使用率过高：(current value: 95.91420909422094)",
+        "summary": "不分应用的>内存使用率过高"
+    },
+    "externalURL": "http://0.0.0.0:9093",
+    "version": "4",
+    "groupKey": "{}:{alertname=\"不分应用的-内存使用率过高\"}"
+}
